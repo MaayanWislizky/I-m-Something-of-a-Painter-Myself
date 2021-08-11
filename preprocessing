@@ -1,0 +1,29 @@
+'''
+    File name: common.py
+    Author: maayan wislizky
+    Date created: 8/8/2021
+    Date last modified: 8/8/2021
+    Python Version: 3.7
+'''
+
+/**************************/
+/*/ Prepare Monet Dataset
+/**************************/
+
+1.	The first thing to do is collecting images.
+To select the best images for this task I used an image processing quality assessment algorithm called BRISQUE (Blind/ Referenceless Image Spatial Quality Evaluator)
+ I used it on both: the Monet images and the regular images and chose the best 30 (Monet) and 500 ( real )
+
+In addition, there is entire documentation explaining how I collected the DB.
+
+
+2.	Afterward, I sorted them into 4 folders:
+trainA, testA, trainB, testB.
+
+
+3.	The “A” category refers to real images with high-quality scores and the “B” category refers to Monet images with the high-quality score, and the dataset is comprised of train and test elements.
+
+This code will load all photographs and use them as a training dataset.
+The photographs are square with the shape 256×256 and
+The example below will load all photographs from the train and test folders and create an array of images for category A and another for category B.
+Both arrays are then saved to a new file in compressed NumPy array format.
