@@ -2,8 +2,6 @@ cycle gan implementation
 
 to make it easier to undrstand please read first the data preprocessing file.
 
-I attached my dive folder with some further explenation.
-
 The same model architecture and configuration are described in the paper and were in use across a lot of image-to-image translation tasks. 
 https://junyanz.github.io/CycleGAN/
 
