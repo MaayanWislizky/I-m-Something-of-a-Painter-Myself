@@ -12,3 +12,7 @@ The architecture is: four models, two discriminator models, and two generator mo
 
 I added a link to the DB:
 https://drive.google.com/drive/u/0/folders/1KEftVQq6PKjW1jmx7IlbA2dIIchJdPcW
+
+a. you can create the zip folder by yourself by taking the test folder in the drive and run prepareDB.py, or simple use my complied zip
+b. I may forgot some hard coded paths. sorry :(
+c.in order to train the model simplr run "run.py" - pleasemake sure you have the real2monet.zip in the right place
